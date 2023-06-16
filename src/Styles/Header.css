@@ -1,0 +1,9 @@
+.app-header {
+    display: flex;
+    justify-content:"flex-end";
+    padding:"10px";
+}
+.app-header-menu {
+    display:"flex";
+    gap:'6px';
+}

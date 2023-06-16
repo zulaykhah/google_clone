@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+// import Countries from './Countries.js';
+import Header from './Styles/Header.css';
+import GoogleApp from './components/googleApp';
 
 function App() {
+  // wappalyzer tool, react developer tools
+  // open chrome web store
+  const imageUrl = "https:/hhjjjjj";
+  const name = "wuraola";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <>
+        {/* <form className = "bio-form">
+          <div className = "field">
+            <label htmlFor = "username">Username:</label>
+            <input type="text" name="username"></input>
+          </div>
+        </form>
+        <div> */}
+          {/* <Countries/>  */}
+          {/* Hello {name} */}
+        {/* </div> */}
+         {/* <img src = {imageUrl} alt = "my link"/> */}
+        <GoogleApp/>  
+        </>
   );
 }
 
